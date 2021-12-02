@@ -142,6 +142,21 @@ for i in range(0,num):
     else:
         print(i)
 
+        
+  #  checking for single digit prime or not       
+ def fun22(n):
+# for x in range(0,6):
+ if n>1:
+    for i in range(2,n):
+        if n%i==0:
+            return False
+    return True
+ else:
+    print('please check the number')
+
+print(fun22(10))
+
+
 
 # def extendList(val, list=[1,2,3]):
 #     list.append(val)
